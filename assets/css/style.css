@@ -1,0 +1,310 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+ /*==========================hero-section=========================================*/
+ .hero-section{
+	 /* background-color: red; */
+	 /* background-image: url('../images/mobile-bg.jpg'); */
+	 background-image : linear-gradient(rgb(218, 51, 45, 0.5),rgb(218, 51, 45, 0.5)),url('../images/mobile-bg.jpg');
+	 background-repeat: no-repeat;
+	 background-attachment: fixed;
+	 background-size: cover;
+	 background-position: center;
+	 padding: 45px 0 60px;
+	 overflow: hidden;
+ }
+ 
+ .hero-section .logo{
+	 margin-bottom: 140px;
+ }
+ 
+ .navbar ul li{
+	 display: inline-block;
+	 margin-left: 10px;
+ }
+ 
+  .navbar ul {
+	  
+	  margin-top: 15px;
+  }
+  
+ .navbar ul li a{
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: regular;
+	padding: 10px;
+	position: relative;
+ }
+ 
+ .navbar ul li a::after{
+	 content:'';
+	 width: 0;
+	 height: 3px;
+	 background-color:#fff;
+	 position: absolute;
+	 left: 0;
+	 bottom: 0;
+	 transition: all 0.5s ease-in-out;
+ }
+ 
+  .navbar ul li a:hover::after{
+	  width: 100%;
+	  }
+  
+ .cta-info h2{
+	 color: #fff;
+	 font-weight: bold;
+	 font-size: 52px;
+	 text-transform: uppercase;
+	 margin-bottom: 60px;
+ }
+ 
+ .cta-info p{
+	  color: #fff;
+	   font-weight: 400;
+	 font-size: 36px;
+	 margin-bottom: 50px;
+ }
+ 
+ .cta-info a{
+	 background-color: #282828;
+	 color: #fff;
+	 font-size: 17px ;
+	 font-weight: bold;
+	 padding: 15px 50px 15px 35px;
+	 border-radius: 45px;
+	 text-transform: uppercase;
+ }
+ .cta-info a i{
+	 font-size: 45px;
+	 vertical-align: middle;
+	 margin-right: 25px;
+	 
+ }
+ 
+ .mob-img{
+	 position: relative;
+ }
+ 
+ .mob-img img{
+	 position: absolute;
+	 right: 0;
+	 top: -40px;
+ }
+ 
+   /*==========================features-section=========================================*/
+   
+ .app-features{
+	 padding: 85px 0 100px;
+ }
+ 
+ .heading-features h1{
+	 font-size: 52px;
+	 font-weight: bold;
+	 color: #8a8a8a;
+	 text-transform:uppercase;
+	 margin-bottom: 45px;
+
+ }
+ 
+ .heading-features p{
+	 font-size: 22px;
+	 font-weight: 400;
+	 color:#3a3a3a;
+	 margin-bottom: 65px;
+ }
+ 
+ .features-info h2{
+	 font-size: 24px;
+	 font-weight: bold;
+	 color: #1a1a1a;
+	 text-transform: uppercase;
+	 margin-bottom: 40px;
+ }
+ 
+ .features-info p{
+	  font-size: 18px;
+	 font-weight: regular;
+	 color: #646464;
+	 
+ }
+ 
+ .features-info figure{
+	 height: 180px;
+	 width: 180px;
+	 margin: 0 auto 40px;
+ }
+ 
+ .features-info figure img{
+	 height: 100%;
+	 width: 100%;
+	 object-fit: cover;
+ }
+ 
+ /*==========================fruitcake-section=========================================*/
+ 
+ .friutcake{
+	 padding: 190px 0 170px;
+	 background: url('../images/chocolate-bg.jpg');
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background-attachment: fixed;
+	 /* height: 100vh; */
+ }
+ .friutcake h2{
+	 font-size: 52px;
+	 font-weight: bold;
+	 color: #fff;
+	 text-transform: capitalize;
+	 
+ }
+ 
+ .friutcake p{
+	 font-size: 24px;
+	 font-weight:400;
+	 color: #5858;
+	margin-bottom: 75px;
+	 
+ }
+ .friutcake a{
+	 font-size: 15px ;
+	 padding: 20px 25px;
+	 background-color: #d9332d;
+	 color: #fff;
+	 font-weight: 900;
+	 text-transform: uppercase;
+	 border-radius: 40px;
+	 border: 1px solid  #d9332d;
+	 transition: all 0.5s ease-in-out;
+ }
+ 
+ .friutcake a:hover{
+	 background-color: #fff;
+	 color: #d9332d;
+	 border: 1px solid  #d9332d;
+ }
+ 
+  /*==========================tfooter-section=========================================*/
+ 
+ .tfoot-section {
+	 padding: 120px 0 150px;
+	 background-color: #2e2e38;
+	 height: 100vh;
+ }
+ 
+ .tfoot-section .footer-logo{
+	 margin-bottom: 60px;
+ }
+ 
+ .footer-list  h4{
+	 font-size: 20px ;
+	 font-weight: bold ;
+	 color: #fff;
+	 text-transform: capitalize;
+	 margin-bottom: 25px;
+ }
+ 
+  .footer-list ul li{
+	  display: table;
+	  clear: both;
+	  width: 100%;
+	  margin-bottom: 25px;
+  }
+ 
+ 
+ .footer-list ul li .box{
+	 width: 54px;
+	 height: 40px;
+	 background-color: #d9332d;
+	 
+ }
+ 
+ .footer-list ul li div{
+	 float:left;
+ }
+ 
+  .footer-list .fruitcake-info{
+	  padding-top: 5px;
+	  margin-left: 15px;
+  }
+  
+   .footer-list .fruitcake-info p{
+	   font-weight:regular;
+	   font-size:15px;
+	   color: #fff;
+	   width: 100%;
+   }
+   
+    .suits-list ul .tweet-info{
+		font-size: 14px;
+		font-weight: 400;
+	}
+   
+  .suits-list ul li{
+	  font-size: 15px;
+	  font-weight: bold;
+	  color: #fff;
+	  padding-top: 5px;
+  }
+  
+  .suits-list ul li p{
+	  font-size: 11px;
+	  padding-top: 10px;
+  }
+  
+  .footer-list p {
+	  font-size: 15px;
+	  font-weight: 400;
+	  color: #fff;
+	  width: 75%;
+  }
+  
+   /*==========================footer-section=========================================*/
+   
+   footer{
+	   padding: 40px;
+	   background-color: #d7dedc;
+   }
+   
+   .footer-info-section p , .social-icon{
+	   display: inline-block;
+	   }
+	   
+	 .footer-info-section  p{
+		 font-size: 25px;
+		 font-weight: 400;
+		 color: #000;
+		 border-right: 2px solid #282828;
+		 padding-right: 20px;
+		 margin-right: 20px;
+	 }
+	 
+	 .footer-info-section  a{
+		 color: #000;
+	 }
+	 
+	 .social-icon a{
+		 width: 30px;
+		 height: 30px;
+		 color: #fff;
+		 border-radius: 5px;
+		 display: inline-block;
+		 padding: 5px;
+		 background-color: #4661a0;
+		 margin-right: 35px;
+	 }
+	 
+	  .social-icon a:nth-child(2){
+		  background-color: pink;
+	  }
+	 
+	  .social-icon a:nth-child(3){
+		  background-color: #86dee1;
+	  }
+	
+	 .social-icon a i{
+		 font-size: 18px;
+	 }
